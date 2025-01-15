@@ -1,4 +1,4 @@
-import cartoon from "/public/Code&Chill.png"
+import cartoon from "/public/portfolio_image.jpg"
 import {motion} from "framer-motion"
 
 const Hero = () => {
@@ -19,15 +19,16 @@ const Hero = () => {
                     transition={{duration:0.8,delay:0.2}}
                     className='flex max-w-[600px] flex-col items-center justify-center gap-3 text-center ' >
                     <h1 className='bg-gradient-to-r from-blue-100 to-blue-400 bg-clip-text text-transparent text-5xl font-light md:text-7xl ' >
-                        John Doe 
+                        Gagan Kainthola
                     </h1>
                     <h3 className='bg-gradient-to-r from-blue-400 to-blue-100 bg-clip-text text-transparent text-2xl font-light md:text-3xl '>
                         Software Engineer & Full-Stack Web Dev
                     </h3>
                     <p className='md:text-base text-pretty text-sm text-gray-400'>
-                    Let’s focus on delivering meaningful solutions, embracing challenges as opportunities to refine and improve.
+                    
+             Hi, I’m Gagan Kainthola, a B.Tech student passionate about full-stack development (MERN) and problem-solving. With a strong foundation in building scalable solutions and tackling complex challenges, I strive to deliver high-performance, user-focused applications.
 
-                    <p>(Every challenge is a step toward excellence! <span role="img" aria-label="gear">⚙️</span>)</p>                    </p>
+                    <p>(Turning ideas into impactful solutions, one line of code at a time! <span role="img" aria-label="gear">⚙️</span>)</p>                    </p>
     
                 </motion.div>
             </div>

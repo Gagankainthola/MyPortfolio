@@ -9,6 +9,7 @@ import {
     BiLogoJava,
     BiLogoJavascript,
     BiLogoMongodb,
+    BiLogoNodejs,
     BiLogoPostgresql,
     BiLogoReact,
     BiLogoSass,
@@ -37,7 +38,6 @@ import {
         { name: "JavaScript", icon: <BiLogoJavascript className="text-yellow-500" /> },
         { name: "TypeScript", icon: <BiLogoTypescript className="text-blue-500" /> },
         { name: "React", icon: <BiLogoReact className="text-cyan-500" /> },
-        { name: "Angular", icon: <BiLogoAngular className="text-red-500" /> },
       ],
     },
     {
@@ -47,19 +47,14 @@ import {
         { name: "PostgreSQL", icon: <BiLogoPostgresql className="text-blue-700" /> },
         { name: "Java", icon: <BiLogoJava className="text-orange-700" /> },
         { name: "ExpressJs", icon: <SiExpress className="text-gray-600" /> },
-        { name: "Spring Boot", icon: <BiLogoSpringBoot className="text-green-600" /> },
-        { name: "Dotnet", icon: <SiDotnet className="text-blue-600" /> },
+        { name: "NodeJs", icon: <BiLogoNodejs className="text-green-600" /> },
       ],
     },
     {
-      category: "Infrastructure & Collaboration",
+      category: "Tools",
       technologies: [
-        { name: "Jira", icon: <SiJira className="text-blue-600" /> },
         { name: "Docker", icon: <BiLogoDocker className="text-blue-500" /> },
-        { name: "Sonarqube", icon: <SiSonarqube className="text-blue-800" /> },
-        { name: "Jenkins", icon: <DiJenkins className="text-green-500" /> },
         { name: "GitHub", icon: <BiLogoGithub className="text-gray-600" /> },
-        { name: "GitLab", icon: <BiLogoGitlab className="text-orange-600" /> },
       ],
     },
   ];

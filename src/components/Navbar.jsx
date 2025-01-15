@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { BsGithub, BsLinkedin,BsFileEarmarkArrowDown } from "react-icons/bs"
 import { BiMenu } from "react-icons/bi";
 import { IoIosClose } from "react-icons/io";
-
+import leetcodeIcon from '/public/leetcode.svg';
+import codeforcesIcon from "/public/code-forces.svg";
 const menuItems = [
     { name: 'Home', href: '#home' },
     { name: 'Tech', href: '#tech' },
@@ -11,10 +12,11 @@ const menuItems = [
 ];
 
 const socialLinks = [
-    { icon: <BsLinkedin />, href: "https://www.linkedin.com/in/", color: 'text-blue-300' },
-    { icon: <BsGithub />, href: "https://github.com/CodeChill23", color: 'text-purple-500' },
-    { icon: <BsFileEarmarkArrowDown />, href: `${import.meta.env.VITE_PUBLIC_URL}/CV-JohnDoe.pdf`, color: 'text-green-500', title: "Download CV" }
-
+    { icon: <BsLinkedin />, href: "https://www.linkedin.com/in/gagan-kainthola-4a0144240/", color: 'text-blue-300' },
+    { icon: <BsGithub />, href: "https://github.com/Gagankainthola", color: 'text-purple-500' },
+    { icon: <img src={leetcodeIcon} alt="LeetCode" className="w-6 h-6" />, href: "https://leetcode.com/u/Gagan121/", color: 'text-purple-500' },
+    { icon: <img src={codeforcesIcon} alt="LeetCode" className="w-6 h-6" />, href: "https://codeforces.com/profile/Gagan121", color: 'text-purple-500' },
+    { icon: <BsFileEarmarkArrowDown />, href: `${import.meta.env.VITE_PUBLIC_URL}/Resume_Gagan_Kainthola.pdf`, color: 'text-green-500', title: "Download CV" }
 ];
 
 const Navbar = () => {
@@ -44,7 +46,7 @@ const Navbar = () => {
   return (
     <nav className='fixed top-0 z-10 flex w-full items-center justify-between border-b-gray-700 bg-black/70 p-16 py-6 text-white backdrop-blur-md md:justify-evenly'>
     <a href="#home" className='bg-gradient-to-r from-blue-300 to-blue-100 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100'>
-        John Doe
+        Gagan
     </a>
 
     {/* Desktop Menu */}

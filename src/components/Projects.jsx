@@ -1,46 +1,26 @@
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
-import example from "/public/example.png"
-import example1 from "/public/example1.png"
-import example2 from "/public/example2.jpg"
-import example3 from "/public/example3.png"
+import chatty from "/public/p1.jpg.png"
+import ecom from "/public/p2.png"
 import { CiLink } from "react-icons/ci";
 
 const projects = [
     {
-      img:example3,
-      title: "Fedora Project",
-      description: "An open-source operating system based on Linux, aiming to provide innovative features and rapid advancements.",
+      img:ecom,
+      title: "EcomExpress - Full stack ecommerce app",
+      description: "A full-stack eCommerce application built using the MERN stack. It features user authentication, product listing, shopping cart functionality, and secure payment integration. The app offers an intuitive user interface, efficient backend APIs, and a seamless shopping experience",
       links: {
-        site: "https://www.youtube.com/shorts/J0NaDPV54Jg",
-        github: "https://www.youtube.com/shorts/J0NaDPV54Jg",
+        site: "https://github.com/Gagankainthola/EcomExpress",
+        github: "https://github.com/Gagankainthola/EcomExpress",
       },
     },
     {
-        img:example1,
-        title: "Arduino",
-      description: "An open-source electronics platform based on easy-to-use hardware and software, enabling users to create interactive projects.",
+      img:chatty,
+      title: "Chatty - Real Time Chat application",
+      description: "A real-time chat application built using the MERN stack. It includes features like JWT authentication, Socket.IO for real-time messaging, RESTful APIs, and a user-friendly interface. Chatty enables seamless and secure communication with instant message delivery.",
       links: {
-        site: "https://www.youtube.com/@CodeChill23/shorts",
-        github: "https://www.youtube.com/@CodeChill23/shorts",
-      },
-    },
-    {
-        img:example2,
-        title: "FreeCAD",
-      description: "An open-source parametric 3D CAD modeler made primarily to design real-life objects of any size.",
-      links: {
-        site: "https://www.youtube.com/shorts/uX9-V7r9wqU",
-        github: "https://www.youtube.com/shorts/uX9-V7r9wqU",
-      },
-    },
-    {
-        img:example,
-        title: "GIMP",
-      description: "An open-source raster graphics editor used for tasks such as photo retouching, image editing, and image composition.",
-      links: {
-        site: "https://www.youtube.com/shorts/elvE8xaTd28",
-        github: "https://www.youtube.com/shorts/elvE8xaTd28",
+        site: "https://fullstack-chat-app-gjex.onrender.com",
+        github: "https://github.com/Gagankainthola/FullStack-chat-app",
       },
     },
   ];
@@ -49,7 +29,7 @@ const Projects = () => {
   return (
     <div id="projects">
     <div className='max-w-[1000px] mx-auto p-6 md:my-20' >
-    <h2 className='text-3xl font-bold text-gray-200 mb-8'>Intenships & Academic Projects</h2>
+    <h2 className='text-3xl font-bold text-gray-200 mb-8'>Projects</h2>
     {projects.map((project, index) => (
         // eslint-disable-next-line react/jsx-key
         <Reveal>
